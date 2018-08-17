@@ -1,0 +1,86 @@
+.row1 {
+  width:35px;
+  height: 35px;
+  background-color: grey;
+}
+
+.row2 {
+  width:35px;
+  height: 35px;
+  background-color: lightblue;
+}
+
+#tbl1Header, #tbl2Header {
+  font-size: 24px;
+  width: 256px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: : 5px;
+}
+
+#tbl1, #tbl2, #tbl3, #tbl4, #tbl5, #tbl6, #tbl7, #tbl8, #tbl9, #tbl10, #tbl11, #tbl12{
+  position: absolute;
+  top: 27px;  
+}
+
+#wholetbl1 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl2 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl3 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl4 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl5 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl6 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl7 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl8 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl9 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl10 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl11 {
+  position: absolute;
+  top: 27px;
+}
+
+#wholetbl12 {
+  position: absolute;
+  top: 27px;
+}
