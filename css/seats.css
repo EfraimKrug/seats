@@ -1,3 +1,37 @@
+body {
+  margin: 59px;
+}
+
+#wholeTable{
+    position:absolute;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border: 8px solid blue;
+    visibility: hidden;
+    z-index:5;
+}
+
+#closeButton {
+  position:absolute;
+  visibility:hidden;
+  top: 423px;
+  left: 798px;
+  background-color: black;
+  border: 8px solid blue;
+  color: white;
+  padding: 5px;
+  z-index:3;
+}
+
+.section {
+  position:absolute;
+  width: 127px;
+  height: 48px;
+  background-color: lightblue;
+  color: black;
+}
+
 .row1 {
   width:35px;
   height: 35px;
@@ -10,9 +44,17 @@
   background-color: lightblue;
 }
 
-#tbl1Header, #tbl2Header {
-  font-size: 24px;
-  width: 256px;
+.Seat {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 75px;
+}
+
+#tbl1Header, #tbl2Header, #tbl3Header, #tbl4Header, #tbl5Header, #tbl6Header,
+#tbl7Header, #tbl8Header, #tbl9Header, #tbl10Header, #tbl11Header, #tbl12Header {
+  position: absolute;
+  font-size: 17px;
+  width: 208px;
   background-color: black;
   color: white;
   font-weight: bold;
@@ -21,66 +63,15 @@
 }
 
 #tbl1, #tbl2, #tbl3, #tbl4, #tbl5, #tbl6, #tbl7, #tbl8, #tbl9, #tbl10, #tbl11, #tbl12{
+  min-width: 150px;
   position: absolute;
-  top: 27px;  
+  top: 47px;
+  left: 27px;
 }
 
-#wholetbl1 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl2 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl3 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl4 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl5 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl6 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl7 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl8 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl9 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl10 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl11 {
-  position: absolute;
-  top: 27px;
-}
-
-#wholetbl12 {
-  position: absolute;
-  top: 27px;
-}
+//#wholetbl1, #wholetbl2,#wholetbl3,#wholetbl4,#wholetbl5,#wholetbl6,
+//#wholetbl7,#wholetbl8,#wholetbl9,#wholetbl10,#wholetbl11,#wholetbl12 {
+//  border: 2px solid blue;
+//  position: absolute;
+//  top: 27px;
+//}
